@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Yeawego Eats",
+    "slug": "yeawego-eats",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/yeawegoIcon.png",
+    "scheme": "yeawegoeats",
+    "userInterfaceStyle": "automatic",
+
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.khozacharles832.yeawegoeats",
+      "infoPlist": {}
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logos.jpg",
+        "backgroundColor": "#ffffff"
+      },
+
+      "package": "com.khozacharles832.yeawegoeats"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logos.jpg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "gaza-kitchen",
+          "organization": "charles-y1"
+        }
+      ],
+
+      "expo-image",
+      "expo-notifications",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {}
+  }
+}
