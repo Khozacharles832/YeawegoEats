@@ -1,50 +1,175 @@
-# Welcome to your Expo app 👋
+# 🍔 Yeawego Eats
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern food ordering mobile application built with React Native, designed to provide users with a fast and seamless ordering experience for Android and iOS.
 
-## Get started
+## 📱 Overview
 
-1. Install dependencies
+Yeawego Eats allows customers to browse menu categories, search for meals, add items to their cart, and place orders through an intuitive mobile interface.
 
-   ```bash
-   npm install
-   ```
+The application focuses on delivering a modern user experience with clean navigation, attractive food presentation, and efficient ordering workflows.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## ✨ Features
 
-In the output, you'll find options to open the app in a
+### Customer Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Browse food categories
+- Search menu items
+- View trending dishes
+- Add items to cart
+- Cart badge notifications
+- User profile management
+- Responsive mobile UI
+- Dark mode interface
+- Fast navigation experience
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Technical Features
 
-## Get a fresh project
+- React Native mobile development
+- Cross-platform support (Android & iOS)
+- Component-based architecture
+- Reusable UI components
+- State management
+- Custom navigation structure
+- Optimized rendering
+- Modern design system
 
-When you're ready, run:
+---
+
+## 📸 Screenshots
+
+### Home Screen
+
+![Home Screen](screenshots/home-screen.png)
+
+The landing page displays featured menu items, trending dishes, and quick access to ordering options.
+
+### Browse Menu
+
+![Browse Menu](screenshots/menu-screen.png)
+
+Users can search meals, filter categories, and add products directly to their cart.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React Native
+- JavaScript / TypeScript
+- React Navigation
+
+### State Management
+
+- Context API / Zustand Toolkit
+
+### Mobile Development
+
+- Android
+- iOS
+
+### Development Tools
+
+- Git
+- GitHub
+- VS Code
+
+---
+
+## 🏗️ Project Structure
+
+src/
+├── assets/
+├── components/
+├── navigation/
+├── screens/
+├── services/
+├── hooks/
+├── utils/
+├── constants/
+└── store/
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
 
 ```bash
-npm run reset-project
+git clone https://github.com/Khozacharles832/yeawego-eats.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Navigate into the project:
 
-## Learn more
+```bash
+cd yeawego-eats
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Install dependencies:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+Run Android:
 
-Join our community of developers creating universal apps.
+```bash
+npm run android
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Run iOS:
+
+```bash
+npm run ios
+```
+
+---
+
+## 🎯 Challenges Solved
+
+- Building reusable food-card components
+- Managing cart state efficiently
+- Designing an intuitive food ordering flow
+- Creating a scalable navigation structure
+- Implementing a modern dark-themed UI
+
+---
+
+## 📈 Future Improvements
+
+- User Authentication
+- Firebase Integration
+- Order Tracking
+- Push Notifications
+- Payment Gateway Integration
+- Backend API Integration
+- Favorites System
+- Order History
+
+---
+
+## 💡 What I Learned
+
+Through this project I strengthened my understanding of:
+
+- React Native Architecture
+- Mobile UI/UX Design
+- Component Reusability
+- Navigation Patterns
+- State Management
+- Performance Optimization
+- Production-Ready Mobile Development
+
+---
+
+## 👨‍💻 Author
+
+Charles Khoza
+
+React Native Developer
+
+LinkedIn: https://linkedin.com/in/charles-khoza-a7990a241
+
+GitHub: https://github.com/Khozacharles832
