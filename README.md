@@ -61,6 +61,10 @@ Users can search meals, filter categories, and add products directly to their ca
 - JavaScript / TypeScript
 - React Navigation
 
+### Backend
+
+-Supabase
+
 ### State Management
 
 - Context API / Zustand Toolkit
