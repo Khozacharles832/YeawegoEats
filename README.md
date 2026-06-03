@@ -47,7 +47,7 @@ The landing page displays featured menu items, trending dishes, and quick access
 
 ### Browse Menu
 
-![Browse Menu](screenshots/menu-screen.png)
+![Browse Menu](screenshots/search-screen.png)
 
 Users can search meals, filter categories, and add products directly to their cart.
 
